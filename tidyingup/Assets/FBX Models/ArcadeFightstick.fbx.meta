@@ -1,26 +1,63 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: 11614022254065d449bde5437d20ddf1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
+    100000: //RootNode
+    100002: Button1
+    100004: Button2
+    100006: Button3
+    100008: Button4
+    100010: Button5
+    100012: Button6
+    100014: Button7
+    100016: Button8
+    100018: FightStickCase
+    100020: Joystick
+    400000: //RootNode
+    400002: Button1
+    400004: Button2
+    400006: Button3
+    400008: Button4
+    400010: Button5
+    400012: Button6
+    400014: Button7
+    400016: Button8
+    400018: FightStickCase
+    400020: Joystick
     2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    2300000: Button1
+    2300002: Button2
+    2300004: Button3
+    2300006: Button4
+    2300008: Button5
+    2300010: Button6
+    2300012: Button7
+    2300014: Button8
+    2300016: FightStickCase
+    2300018: Joystick
+    3300000: Button1
+    3300002: Button2
+    3300004: Button3
+    3300006: Button4
+    3300008: Button5
+    3300010: Button6
+    3300012: Button7
+    3300014: Button8
+    3300016: FightStickCase
+    3300018: Joystick
+    4300000: Joystick
+    4300002: FightStickCase
+    4300004: Button1
+    4300006: Button2
+    4300008: Button3
+    4300010: Button4
+    4300012: Button5
+    4300014: Button6
+    4300016: Button7
+    4300018: Button8
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -72,8 +109,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -97,7 +134,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

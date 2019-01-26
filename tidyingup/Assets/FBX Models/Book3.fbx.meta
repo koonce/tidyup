@@ -1,26 +1,16 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: f6c6f562cfd826f4a975aa7ad16bf0a4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
-    2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Toilet_White
+    2100002: Balenciaga_Blue
+    2100004: Balenciaga_Yellow
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube8
   externalObjects: {}
   materials:
     importMaterials: 1

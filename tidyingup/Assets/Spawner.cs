@@ -14,6 +14,14 @@ public class Spawner : MonoBehaviour {
     public float bigCountdown; // 120 seconds is 2 minutes
     public float currentBigTime;
 
+    private float itemX;
+    private float itemY;
+    private float itemZ;
+
+    private int index;
+
+    public int itemCount;
+
     void Start()
     {
         spawnInterval = 5;
@@ -21,6 +29,10 @@ public class Spawner : MonoBehaviour {
 
         bigCountdown = 10; // 120 seconds is 2 minutes
         currentBigTime = 0;
+
+        itemY = 5;
+
+        itemCount = 0;
 }
 
     void Update()
@@ -36,14 +48,25 @@ public class Spawner : MonoBehaviour {
 
         if (currentBigTime >= bigCountdown)
         {
-            spawnInterval -= 1;
+            if (spawnInterval != 1) {
+                spawnInterval -= 1;
+            }
             currentBigTime = 0;
         }
     }
 
     void Spawn()
     {
-        Vector3 enemyPos = new Vector3(0,0,0);
-        Instantiate(items[0], enemyPos, Quaternion.identity);
+        itemX = Random.Range(-22.0f, 22.0f);
+        itemZ = Random.Range(-22.0f, 22.0f);
+        Vector3 itemPos = new Vector3(itemX, itemY, itemZ);
+
+        index = Random.Range(0, items.Length);
+
+        Instantiate(items[index], itemPos, Quaternion.identity);
+
+        itemCount++;
+
+        //Debug.Log(itemCount);
     }
 }

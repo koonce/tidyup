@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f5c74b3be56b2044c809295106d05c8a
+guid: a2729b76f27fec442994853165b3583e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -26,6 +26,7 @@ ModelImporter:
     4300002: diskSlot
     4300004: ResetButton
     4300006: PowerButton
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -77,8 +78,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -102,7 +103,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

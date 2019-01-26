@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 2f1e28b87f712104faf10ccf52d83ade
+guid: cdf4985fa155bd648859285f678a2337
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Camera
-    100002: //RootNode
-    100004: chest
+    100002: chest
+    100004: //RootNode
     100006: chestCollider
     100008: chestCollider2
     100010: chestCollider3
@@ -43,6 +43,7 @@ ModelImporter:
     4300006: chestCollider
     4300008: chestCollider2
     4300010: chestCollider4
+    9500000: //RootNode
     10800000: Lamp
   externalObjects: {}
   materials:
@@ -95,8 +96,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -120,7 +121,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

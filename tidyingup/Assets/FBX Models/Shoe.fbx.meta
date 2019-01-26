@@ -1,27 +1,19 @@
 fileFormatVersion: 2
-guid: e258c59f6cc52e44c99eae801ef51c02
+guid: 8a702e95ceb79ea4b881ab6e2047f10c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: MonitorCollider
-    100002: //RootNode
-    100004: Television
-    100006: TVStandCollider
-    400000: MonitorCollider
-    400002: //RootNode
-    400004: Television
-    400006: TVStandCollider
-    2100000: lambert1
-    2300000: MonitorCollider
-    2300002: Television
-    2300004: TVStandCollider
-    3300000: MonitorCollider
-    3300002: Television
-    3300004: TVStandCollider
-    4300000: Television
-    4300002: MonitorCollider
-    4300004: TVStandCollider
-    9500000: //RootNode
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Balenciaga_Yellow
+    2100002: Fridge_Grey
+    2100004: lambert1
+    2100006: Balenciaga_Brown
+    2100008: Balenciaga_Black
+    2100010: Balenciaga_Blue
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Balenciaga
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -73,8 +65,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,7 +90,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -47,6 +47,7 @@ public class Player_Movement : MonoBehaviour {
         //move player
         rb = GetComponent<Rigidbody>();
 
+        /*
         if (Input.GetKey(KeyCode.W))
         {
             //rb.AddRelativeForce(Vector3.forward * moveSpeed * Time.deltaTime);
@@ -57,6 +58,27 @@ public class Player_Movement : MonoBehaviour {
             //rb.AddRelativeForce(Vector3.forward * -moveSpeed * Time.deltaTime);
             rb.velocity = transform.forward * -moveSpeed * Time.deltaTime;
         } 
+        */
+        
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(new Vector3(0, 0, -moveSpeed * Time.deltaTime));
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(new Vector3(0, 0, moveSpeed * Time.deltaTime));
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(new Vector3(moveSpeed * Time.deltaTime, 0, 0));
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(new Vector3(-moveSpeed * Time.deltaTime, 0, 0));
+        }
 
         //mouse look for player
 

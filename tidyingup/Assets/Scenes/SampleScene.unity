@@ -683,8 +683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   rotSpeed: 60
-  moveSpeed: 100
-  mouseSensitivity: 50
+  moveSpeed: 8
+  mouseSensitivity: 40
   rotationY: 0
   rotationX: 0
   holdingItem: 0

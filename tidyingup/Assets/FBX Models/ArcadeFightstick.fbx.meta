@@ -1,27 +1,62 @@
 fileFormatVersion: 2
-guid: e258c59f6cc52e44c99eae801ef51c02
+guid: 11614022254065d449bde5437d20ddf1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: MonitorCollider
-    100002: //RootNode
-    100004: Television
-    100006: TVStandCollider
-    400000: MonitorCollider
-    400002: //RootNode
-    400004: Television
-    400006: TVStandCollider
+    100000: //RootNode
+    100002: Button1
+    100004: Button2
+    100006: Button3
+    100008: Button4
+    100010: Button5
+    100012: Button6
+    100014: Button7
+    100016: Button8
+    100018: FightStickCase
+    100020: Joystick
+    400000: //RootNode
+    400002: Button1
+    400004: Button2
+    400006: Button3
+    400008: Button4
+    400010: Button5
+    400012: Button6
+    400014: Button7
+    400016: Button8
+    400018: FightStickCase
+    400020: Joystick
     2100000: lambert1
-    2300000: MonitorCollider
-    2300002: Television
-    2300004: TVStandCollider
-    3300000: MonitorCollider
-    3300002: Television
-    3300004: TVStandCollider
-    4300000: Television
-    4300002: MonitorCollider
-    4300004: TVStandCollider
-    9500000: //RootNode
+    2300000: Button1
+    2300002: Button2
+    2300004: Button3
+    2300006: Button4
+    2300008: Button5
+    2300010: Button6
+    2300012: Button7
+    2300014: Button8
+    2300016: FightStickCase
+    2300018: Joystick
+    3300000: Button1
+    3300002: Button2
+    3300004: Button3
+    3300006: Button4
+    3300008: Button5
+    3300010: Button6
+    3300012: Button7
+    3300014: Button8
+    3300016: FightStickCase
+    3300018: Joystick
+    4300000: Joystick
+    4300002: FightStickCase
+    4300004: Button1
+    4300006: Button2
+    4300008: Button3
+    4300010: Button4
+    4300012: Button5
+    4300014: Button6
+    4300016: Button7
+    4300018: Button8
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -73,8 +108,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,7 +133,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

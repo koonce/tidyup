@@ -1,27 +1,22 @@
 fileFormatVersion: 2
-guid: e258c59f6cc52e44c99eae801ef51c02
+guid: 5566b395a701c7d4780514f9277e244b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: MonitorCollider
-    100002: //RootNode
-    100004: Television
-    100006: TVStandCollider
-    400000: MonitorCollider
-    400002: //RootNode
-    400004: Television
-    400006: TVStandCollider
-    2100000: lambert1
-    2300000: MonitorCollider
-    2300002: Television
-    2300004: TVStandCollider
-    3300000: MonitorCollider
-    3300002: Television
-    3300004: TVStandCollider
-    4300000: Television
-    4300002: MonitorCollider
-    4300004: TVStandCollider
-    9500000: //RootNode
+    100000: Camera
+    100002: Cube
+    100004: //RootNode
+    100006: Lamp
+    400000: Camera
+    400002: Cube
+    400004: //RootNode
+    400006: Lamp
+    2000000: Camera
+    2100000: Material
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -73,8 +68,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

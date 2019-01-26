@@ -7,19 +7,30 @@ public class Spawner : MonoBehaviour {
     //Array of Objects
     public GameObject[] items;
   
-    // Use this for initialization
+    //Spawning
     public float spawnInterval;
     private float currentSpawnTime;
 
+    //Timer
     public float bigCountdown; // 120 seconds is 2 minutes
     private float currentBigTime;
 
+    //Spawn Ranges
+    private float xMin;
+    private float xMax;
+
+    private float zMin;
+    private float zMax;
+
+    //Spawn locations
     private float itemX;
     private float itemY;
     private float itemZ;
 
+    //Item index
     private int index;
 
+    //itemCount
     public int itemCount;
 
     void Start()
@@ -29,6 +40,12 @@ public class Spawner : MonoBehaviour {
 
         bigCountdown = 10; // 120 seconds is 2 minutes
         currentBigTime = 0;
+
+        xMin = -22.0f;
+        xMax = 22.0f;
+
+        zMin = -22.0f;
+        zMax = 22.0f;
 
         itemY = 5;
 
@@ -57,8 +74,9 @@ public class Spawner : MonoBehaviour {
 
     void Spawn()
     {
-        itemX = Random.Range(-22.0f, 22.0f);
-        itemZ = Random.Range(-22.0f, 22.0f);
+        itemX = Random.Range(xMin, xMax);
+        itemZ = Random.Range(zMin, zMax);
+
         Vector3 itemPos = new Vector3(itemX, itemY, itemZ);
 
         index = Random.Range(0, items.Length);

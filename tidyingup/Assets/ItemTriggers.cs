@@ -12,7 +12,7 @@ public class ItemTriggers : MonoBehaviour {
     private GameManager gameManager;
 
     public int itemMax;
-    public int itemsThrown;
+    private int itemsThrown;
 
     // Use this for initialization
     void Start()

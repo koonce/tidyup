@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
     public int itemsThrownOut;
 
-    public Text score;
     void Awake()
     {
         //Check if instance already exists

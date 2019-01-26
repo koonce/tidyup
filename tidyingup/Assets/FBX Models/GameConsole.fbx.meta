@@ -1,27 +1,31 @@
 fileFormatVersion: 2
-guid: 29e2a98f0c8d37d49be071864188884a
+guid: f5c74b3be56b2044c809295106d05c8a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube1
-    100004: pCube2
-    100006: pCube5
-    100008: transform1
-    100010: transform2
-    400000: //RootNode
-    400002: pCube1
-    400004: pCube2
-    400006: pCube5
-    400008: transform1
-    400010: transform2
-    2100000: lambert2
-    2100002: lambert1
-    2300000: pCube5
-    2300002: //RootNode
-    3300000: pCube5
-    3300002: //RootNode
-    4300000: pCube5
+    100000: ConsoleShell
+    100002: diskSlot
+    100004: //RootNode
+    100006: PowerButton
+    100008: ResetButton
+    400000: ConsoleShell
+    400002: diskSlot
+    400004: //RootNode
+    400006: PowerButton
+    400008: ResetButton
+    2100000: lambert1
+    2300000: ConsoleShell
+    2300002: diskSlot
+    2300004: PowerButton
+    2300006: ResetButton
+    3300000: ConsoleShell
+    3300002: diskSlot
+    3300004: PowerButton
+    3300006: ResetButton
+    4300000: ConsoleShell
+    4300002: diskSlot
+    4300004: ResetButton
+    4300006: PowerButton
   externalObjects: {}
   materials:
     importMaterials: 1

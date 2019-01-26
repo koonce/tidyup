@@ -14,6 +14,8 @@ public class Player_Movement : MonoBehaviour {
     public float rotationY;
     public float rotationX;
 
+    public bool holdingItem = false;
+
     Rigidbody rb;
 
     // Use this for initialization
@@ -23,6 +25,8 @@ public class Player_Movement : MonoBehaviour {
         {
             rb.freezeRotation = true;
         }
+
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -46,12 +50,12 @@ public class Player_Movement : MonoBehaviour {
         if (Input.GetKey(KeyCode.W))
         {
             //rb.AddRelativeForce(Vector3.forward * moveSpeed * Time.deltaTime);
-            rb.velocity = Vector3.forward * moveSpeed * Time.deltaTime;
+            rb.velocity = transform.forward * moveSpeed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.S))
         {
             //rb.AddRelativeForce(Vector3.forward * -moveSpeed * Time.deltaTime);
-            rb.velocity = Vector3.forward * -moveSpeed * Time.deltaTime;
+            rb.velocity = transform.forward * -moveSpeed * Time.deltaTime;
         } 
 
         //mouse look for player
@@ -82,20 +86,6 @@ public class Player_Movement : MonoBehaviour {
 
             transform.localEulerAngles = new Vector3(-rotationY, transform.localEulerAngles.y, 0);
         }
-
-        RaycastHit hit;
-        Ray ray = new Ray(transform.position, transform.forward);
-
-        if (Physics.Raycast(ray, out hit, 100.0f))
-        {
-            if (hit.transform.tag == "example")
-            {
-                Debug.Log("cursor works!");
-            }
-        }
-
-
-
 
     }
 }

@@ -8,49 +8,30 @@ public class Spawner : MonoBehaviour {
     public GameObject[] items;
   
     //Spawning
-    public float spawnInterval;
-    private float currentSpawnTime;
+    public float spawnInterval = 5;
+    private float currentSpawnTime = 0;
 
     //Timer
-    public float bigCountdown; // 120 seconds is 2 minutes
-    private float currentBigTime;
+    public float bigCountdown = 10; // 120 seconds is 2 minutes
+    private float currentBigTime = 0;
 
     //Spawn Ranges
-    private float xMin;
-    private float xMax;
+    private readonly float xMin = -22.0f;
+    private readonly float xMax = 22.0f;
 
-    private float zMin;
-    private float zMax;
+    private readonly float zMin = -22.0f;
+    private readonly float zMax = 22.0f;
 
     //Spawn locations
+    private readonly float itemY = 5;
     private float itemX;
-    private float itemY;
     private float itemZ;
 
     //Item index
     private int index;
 
     //itemCount
-    public int itemCount;
-
-    void Start()
-    {
-        spawnInterval = 5;
-        currentSpawnTime = 0;
-
-        bigCountdown = 10; // 120 seconds is 2 minutes
-        currentBigTime = 0;
-
-        xMin = -22.0f;
-        xMax = 22.0f;
-
-        zMin = -22.0f;
-        zMax = 22.0f;
-
-        itemY = 5;
-
-        itemCount = 0;
-}
+    public int itemCount = 0;
 
     void Update()
     {

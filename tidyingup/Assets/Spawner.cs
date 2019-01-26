@@ -20,6 +20,8 @@ public class Spawner : MonoBehaviour {
 
     private int index;
 
+    public int itemCount;
+
     void Start()
     {
         spawnInterval = 5;
@@ -29,6 +31,8 @@ public class Spawner : MonoBehaviour {
         currentBigTime = 0;
 
         itemY = 5;
+
+        itemCount = 0;
 }
 
     void Update()
@@ -60,5 +64,9 @@ public class Spawner : MonoBehaviour {
         index = Random.Range(0, items.Length);
 
         Instantiate(items[index], itemPos, Quaternion.identity);
+
+        itemCount++;
+
+        //Debug.Log(itemCount);
     }
 }

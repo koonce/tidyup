@@ -1,26 +1,21 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: a843e922442647148917ffb029ab433d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
+    100000: pCylinder1
+    100002: pCylinder2
+    100004: //RootNode
+    400000: pCylinder1
+    400002: pCylinder2
+    400004: //RootNode
     2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    2300000: pCylinder1
+    2300002: pCylinder2
+    3300000: pCylinder1
+    3300002: pCylinder2
+    4300000: pCylinder1
+    4300002: pCylinder2
   externalObjects: {}
   materials:
     importMaterials: 1

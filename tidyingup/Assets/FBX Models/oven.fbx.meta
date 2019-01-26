@@ -1,26 +1,46 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: 74972c8f8701a9448add6285da6ac804
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
-    2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    100000: Camera
+    100002: doorCollider
+    100004: knob1
+    100006: knob2
+    100008: knob3
+    100010: //RootNode
+    100012: ovenCollider
+    100014: Stovetop
+    400000: Camera
+    400002: doorCollider
+    400004: knob1
+    400006: knob2
+    400008: knob3
+    400010: //RootNode
+    400012: ovenCollider
+    400014: Stovetop
+    2000000: Camera
+    2100000: No Name
+    2100002: Material
+    2300000: doorCollider
+    2300002: knob1
+    2300004: knob2
+    2300006: knob3
+    2300008: ovenCollider
+    2300010: Stovetop
+    3300000: doorCollider
+    3300002: knob1
+    3300004: knob2
+    3300006: knob3
+    3300008: ovenCollider
+    3300010: Stovetop
+    4300000: knob1
+    4300002: Stovetop
+    4300004: doorCollider
+    4300006: ovenCollider
+    4300008: knob2
+    4300010: knob3
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -1,26 +1,89 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: 821de3253f9c855428b7572890464e73
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
+    100000: //RootNode
+    100002: CellPhoneAntenna
+    100004: CellPhoneBody
+    100006: CellPhoneScreen
+    100008: Number0
+    100010: Number1
+    100012: Number2
+    100014: Number3
+    100016: Number4
+    100018: Number5
+    100020: Number6
+    100022: Number7
+    100024: Number8
+    100026: Number9
+    100028: pasted__MP3Body
+    100030: PoundSign
+    100032: StarSign
+    400000: //RootNode
+    400002: CellPhoneAntenna
+    400004: CellPhoneBody
+    400006: CellPhoneScreen
+    400008: Number0
+    400010: Number1
+    400012: Number2
+    400014: Number3
+    400016: Number4
+    400018: Number5
+    400020: Number6
+    400022: Number7
+    400024: Number8
+    400026: Number9
+    400028: pasted__MP3Body
+    400030: PoundSign
+    400032: StarSign
     2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    2300000: CellPhoneAntenna
+    2300002: CellPhoneScreen
+    2300004: Number0
+    2300006: Number1
+    2300008: Number2
+    2300010: Number3
+    2300012: Number4
+    2300014: Number5
+    2300016: Number6
+    2300018: Number7
+    2300020: Number8
+    2300022: Number9
+    2300024: pasted__MP3Body
+    2300026: PoundSign
+    2300028: StarSign
+    3300000: CellPhoneAntenna
+    3300002: CellPhoneScreen
+    3300004: Number0
+    3300006: Number1
+    3300008: Number2
+    3300010: Number3
+    3300012: Number4
+    3300014: Number5
+    3300016: Number6
+    3300018: Number7
+    3300020: Number8
+    3300022: Number9
+    3300024: pasted__MP3Body
+    3300026: PoundSign
+    3300028: StarSign
+    4300000: pasted__MP3Body
+    4300002: CellPhoneScreen
+    4300004: Number1
+    4300006: Number2
+    4300008: Number3
+    4300010: Number4
+    4300012: Number5
+    4300014: Number6
+    4300016: Number7
+    4300018: Number8
+    4300020: Number9
+    4300022: StarSign
+    4300024: Number0
+    4300026: PoundSign
+    4300028: CellPhoneAntenna
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -72,8 +135,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -97,7 +160,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

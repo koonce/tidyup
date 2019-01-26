@@ -1,26 +1,27 @@
 fileFormatVersion: 2
-guid: 6cd4b47c53b6f8e428f7851ab5d70dd8
+guid: 04facaa26609d2347a8854a9d0ee95a7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: headband
+    100000: MP3Body
     100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    400000: headband
+    100004: MP3Screen
+    100006: ScrollWheel
+    400000: MP3Body
     400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
+    400004: MP3Screen
+    400006: ScrollWheel
     2100000: lambert1
-    2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
+    2300000: MP3Body
+    2300002: MP3Screen
+    2300004: ScrollWheel
+    3300000: MP3Body
+    3300002: MP3Screen
+    3300004: ScrollWheel
+    4300000: MP3Body
+    4300002: MP3Screen
+    4300004: ScrollWheel
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -72,8 +73,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -97,7 +98,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

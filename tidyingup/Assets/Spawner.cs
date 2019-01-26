@@ -9,10 +9,10 @@ public class Spawner : MonoBehaviour {
   
     // Use this for initialization
     public float spawnInterval;
-    public float currentSpawnTime;
+    private float currentSpawnTime;
 
     public float bigCountdown; // 120 seconds is 2 minutes
-    public float currentBigTime;
+    private float currentBigTime;
 
     private float itemX;
     private float itemY;

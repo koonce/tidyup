@@ -25,6 +25,7 @@ public class Pick_Up_Objects : MonoBehaviour {
         RaycastHit hit;
         Ray ray = new Ray(transform.position, transform.forward);
 
+        Debug.DrawRay(transform.position, transform.forward, Color.red);
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -32,8 +33,10 @@ public class Pick_Up_Objects : MonoBehaviour {
             {
                 if (Physics.Raycast(ray, out hit, 100.0f))
                 {
+                    Debug.Log("clicked hit");
                     dist = Vector3.Distance(this.transform.position, hit.transform.position);
-                        if (hit.transform.tag == "example" && dist < maxDistance)
+                    Debug.DrawRay(transform.position, transform.forward, Color.green);
+                    if (hit.transform.tag == "throwable" && dist < maxDistance)
                         {
                             Debug.Log("okayokay");
                             hit.transform.gameObject.GetComponent<Interactable>().carry();

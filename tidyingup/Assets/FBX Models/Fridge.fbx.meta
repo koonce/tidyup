@@ -4,12 +4,58 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: fridge_backbone
+    100004: fridge_backbone1
+    100006: fridge_backbone2
+    100008: handle1
+    100010: handle2
+    100012: handle3
+    100014: handle4
+    100016: handle5
+    100018: handle6
     400000: //RootNode
+    400002: fridge_backbone
+    400004: fridge_backbone1
+    400006: fridge_backbone2
+    400008: handle1
+    400010: handle2
+    400012: handle3
+    400014: handle4
+    400016: handle5
+    400018: handle6
     2100000: Fridge_White
     2100002: Fridge_Grey
+    2100004: lambert1
     2300000: //RootNode
+    2300002: fridge_backbone
+    2300004: fridge_backbone1
+    2300006: fridge_backbone2
+    2300008: handle1
+    2300010: handle2
+    2300012: handle3
+    2300014: handle4
+    2300016: handle5
+    2300018: handle6
     3300000: //RootNode
+    3300002: fridge_backbone
+    3300004: fridge_backbone1
+    3300006: fridge_backbone2
+    3300008: handle1
+    3300010: handle2
+    3300012: handle3
+    3300014: handle4
+    3300016: handle5
+    3300018: handle6
     4300000: Fridge
+    4300002: fridge_backbone
+    4300004: fridge_backbone1
+    4300006: fridge_backbone2
+    4300008: handle1
+    4300010: handle2
+    4300012: handle3
+    4300014: handle4
+    4300016: handle5
+    4300018: handle6
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -6,13 +6,106 @@ ModelImporter:
     100000: curve1
     100002: pCylinder3
     100004: //RootNode
+    100006: trophy_bottom
+    100008: trophy_mesh
+    100010: trophy_netural_bottom
+    100012: trophy_ring1
+    100014: trophy_ring10
+    100016: trophy_ring11
+    100018: trophy_ring12
+    100020: trophy_ring13
+    100022: trophy_ring14
+    100024: trophy_ring2
+    100026: trophy_ring3
+    100028: trophy_ring4
+    100030: trophy_ring5
+    100032: trophy_ring6
+    100034: trophy_ring7
+    100036: trophy_ring8
+    100038: trophy_ring9
+    100040: trophy_stem
     400000: curve1
     400002: pCylinder3
     400004: //RootNode
+    400006: trophy_bottom
+    400008: trophy_mesh
+    400010: trophy_netural_bottom
+    400012: trophy_ring1
+    400014: trophy_ring10
+    400016: trophy_ring11
+    400018: trophy_ring12
+    400020: trophy_ring13
+    400022: trophy_ring14
+    400024: trophy_ring2
+    400026: trophy_ring3
+    400028: trophy_ring4
+    400030: trophy_ring5
+    400032: trophy_ring6
+    400034: trophy_ring7
+    400036: trophy_ring8
+    400038: trophy_ring9
+    400040: trophy_stem
     2100000: lambert1
     2300000: pCylinder3
+    2300002: //RootNode
+    2300004: trophy_bottom
+    2300006: trophy_mesh
+    2300008: trophy_netural_bottom
+    2300010: trophy_ring1
+    2300012: trophy_ring10
+    2300014: trophy_ring11
+    2300016: trophy_ring12
+    2300018: trophy_ring13
+    2300020: trophy_ring14
+    2300022: trophy_ring2
+    2300024: trophy_ring3
+    2300026: trophy_ring4
+    2300028: trophy_ring5
+    2300030: trophy_ring6
+    2300032: trophy_ring7
+    2300034: trophy_ring8
+    2300036: trophy_ring9
+    2300038: trophy_stem
     3300000: pCylinder3
+    3300002: //RootNode
+    3300004: trophy_bottom
+    3300006: trophy_mesh
+    3300008: trophy_netural_bottom
+    3300010: trophy_ring1
+    3300012: trophy_ring10
+    3300014: trophy_ring11
+    3300016: trophy_ring12
+    3300018: trophy_ring13
+    3300020: trophy_ring14
+    3300022: trophy_ring2
+    3300024: trophy_ring3
+    3300026: trophy_ring4
+    3300028: trophy_ring5
+    3300030: trophy_ring6
+    3300032: trophy_ring7
+    3300034: trophy_ring8
+    3300036: trophy_ring9
+    3300038: trophy_stem
     4300000: pCylinder3
+    4300002: trophy
+    4300004: trophy_stem
+    4300006: trophy_mesh
+    4300008: trophy_bottom
+    4300010: trophy_netural_bottom
+    4300012: trophy_ring1
+    4300014: trophy_ring2
+    4300016: trophy_ring3
+    4300018: trophy_ring4
+    4300020: trophy_ring5
+    4300022: trophy_ring6
+    4300024: trophy_ring7
+    4300026: trophy_ring8
+    4300028: trophy_ring9
+    4300030: trophy_ring10
+    4300032: trophy_ring11
+    4300034: trophy_ring12
+    4300036: trophy_ring13
+    4300038: trophy_ring14
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -47,7 +140,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -72,9 +164,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

@@ -7,21 +7,86 @@ ModelImporter:
     100002: pCube3
     100004: pCube4
     100006: pCube5
+    100008: bed
+    100010: blanket
+    100012: end
+    100014: leg1
+    100016: leg2
+    100018: leg3
+    100020: leg4
+    100022: main_bed_collider
+    100024: main_bed_headboard
+    100026: main_bed_headboard1
+    100028: main_bed_headboard2
+    100030: main_bed_headboard3
+    100032: pillow
     400000: //RootNode
     400002: pCube3
     400004: pCube4
     400006: pCube5
+    400008: bed
+    400010: blanket
+    400012: end
+    400014: leg1
+    400016: leg2
+    400018: leg3
+    400020: leg4
+    400022: main_bed_collider
+    400024: main_bed_headboard
+    400026: main_bed_headboard1
+    400028: main_bed_headboard2
+    400030: main_bed_headboard3
+    400032: pillow
     2100000: lambert1
     2100002: lambert2
     2300000: pCube3
     2300002: pCube4
     2300004: pCube5
+    2300006: bed
+    2300008: blanket
+    2300010: end
+    2300012: leg1
+    2300014: leg2
+    2300016: leg3
+    2300018: leg4
+    2300020: main_bed_collider
+    2300022: main_bed_headboard
+    2300024: main_bed_headboard1
+    2300026: main_bed_headboard2
+    2300028: main_bed_headboard3
+    2300030: pillow
     3300000: pCube3
     3300002: pCube4
     3300004: pCube5
+    3300006: bed
+    3300008: blanket
+    3300010: end
+    3300012: leg1
+    3300014: leg2
+    3300016: leg3
+    3300018: leg4
+    3300020: main_bed_collider
+    3300022: main_bed_headboard
+    3300024: main_bed_headboard1
+    3300026: main_bed_headboard2
+    3300028: main_bed_headboard3
+    3300030: pillow
     4300000: pCube3
     4300002: pCube4
     4300004: pCube5
+    4300006: pillow
+    4300008: blanket
+    4300010: bed
+    4300012: main_bed_collider
+    4300014: main_bed_headboard
+    4300016: main_bed_headboard1
+    4300018: main_bed_headboard2
+    4300020: main_bed_headboard3
+    4300022: leg1
+    4300024: leg2
+    4300026: leg3
+    4300028: leg4
+    4300030: end
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -56,7 +121,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -81,9 +145,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

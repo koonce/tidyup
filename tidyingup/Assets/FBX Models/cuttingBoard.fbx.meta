@@ -14,6 +14,7 @@ ModelImporter:
     2000000: Camera
     2100000: Material
     2100002: CuttingBoard_Material
+    2100004: BoardMat
     2300000: Cube
     2300002: //RootNode
     3300000: Cube

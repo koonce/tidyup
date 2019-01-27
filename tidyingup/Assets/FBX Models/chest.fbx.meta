@@ -48,7 +48,12 @@ ModelImporter:
     4300010: chestCollider4
     9500000: //RootNode
     10800000: Lamp
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chest_Material
+    second: {fileID: 2100000, guid: 64852baffdd18fc4093cc6b3b807b2df, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -120,7 +125,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

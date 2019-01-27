@@ -4,13 +4,39 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: handle1
+    100004: handle2
+    100006: paddleHandle
+    100008: paddleItself
     400000: //RootNode
+    400002: handle1
+    400004: handle2
+    400006: paddleHandle
+    400008: paddleItself
     2100000: lambert1
+    2100002: lambert2
     2300000: //RootNode
+    2300002: handle1
+    2300004: handle2
+    2300006: paddleHandle
+    2300008: paddleItself
     3300000: //RootNode
+    3300002: handle1
+    3300004: handle2
+    3300006: paddleHandle
+    3300008: paddleItself
     4300000: Paddle
+    4300002: paddleItself
+    4300004: paddleHandle
+    4300006: handle1
+    4300008: handle2
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100002, guid: c82023ba63f1acc449ad4f8f89abd581, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

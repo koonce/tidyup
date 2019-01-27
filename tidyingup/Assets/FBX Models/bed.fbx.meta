@@ -75,7 +75,17 @@ ModelImporter:
     4300018: leg3
     4300020: leg4
     4300022: end
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: e3db012d34cfd224881b16a74b1b1e52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 6f07427ccf82e97468754ed9143c36af, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

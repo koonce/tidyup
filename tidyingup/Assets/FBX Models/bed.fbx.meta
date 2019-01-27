@@ -4,88 +4,65 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: pCube2
-    100006: pCube5
-    100008: transform1
-    100010: transform2
-    100012: end
-    100014: leg1
-    100016: leg2
-    100018: leg3
-    100020: leg4
-    100022: main_bed_collider
-    100024: main_bed_headboard
-    100026: main_bed_headboard1
-    100028: main_bed_headboard2
-    100030: main_bed_headboard3
+    100002: end
+    100004: leg1
+    100006: leg2
+    100008: leg3
+    100010: leg4
+    100012: main_bed_collider
+    100014: main_bed_headboard
+    100016: main_bed_headboard1
+    100018: main_bed_headboard2
+    100020: main_bed_headboard3
     400000: //RootNode
-    400002: pCube1
-    400004: pCube2
-    400006: pCube5
-    400008: transform1
-    400010: transform2
-    400012: end
-    400014: leg1
-    400016: leg2
-    400018: leg3
-    400020: leg4
-    400022: main_bed_collider
-    400024: main_bed_headboard
-    400026: main_bed_headboard1
-    400028: main_bed_headboard2
-    400030: main_bed_headboard3
-    2100000: lambert2
-    2100002: lambert1
-    2100004: Bed_Mattress_Material
-    2100006: BedFrame_Material
-    2300000: pCube5
-    2300002: //RootNode
-    2300004: end
-    2300006: leg1
-    2300008: leg2
-    2300010: leg3
-    2300012: leg4
-    2300014: main_bed_collider
-    2300016: main_bed_headboard
-    2300018: main_bed_headboard1
-    2300020: main_bed_headboard2
-    2300022: main_bed_headboard3
-    3300000: pCube5
-    3300002: //RootNode
-    3300004: end
-    3300006: leg1
-    3300008: leg2
-    3300010: leg3
-    3300012: leg4
-    3300014: main_bed_collider
-    3300016: main_bed_headboard
-    3300018: main_bed_headboard1
-    3300020: main_bed_headboard2
-    3300022: main_bed_headboard3
-    4300000: pCube5
-    4300002: bed
-    4300004: main_bed_collider
-    4300006: main_bed_headboard
-    4300008: main_bed_headboard1
-    4300010: main_bed_headboard2
-    4300012: main_bed_headboard3
-    4300014: leg1
-    4300016: leg2
-    4300018: leg3
-    4300020: leg4
-    4300022: end
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: e3db012d34cfd224881b16a74b1b1e52, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert2
-    second: {fileID: 2100000, guid: 6f07427ccf82e97468754ed9143c36af, type: 2}
+    400002: end
+    400004: leg1
+    400006: leg2
+    400008: leg3
+    400010: leg4
+    400012: main_bed_collider
+    400014: main_bed_headboard
+    400016: main_bed_headboard1
+    400018: main_bed_headboard2
+    400020: main_bed_headboard3
+    2100000: lambert1
+    2100002: lambert2
+    2300000: //RootNode
+    2300002: end
+    2300004: leg1
+    2300006: leg2
+    2300008: leg3
+    2300010: leg4
+    2300012: main_bed_collider
+    2300014: main_bed_headboard
+    2300016: main_bed_headboard1
+    2300018: main_bed_headboard2
+    2300020: main_bed_headboard3
+    3300000: //RootNode
+    3300002: end
+    3300004: leg1
+    3300006: leg2
+    3300008: leg3
+    3300010: leg4
+    3300012: main_bed_collider
+    3300014: main_bed_headboard
+    3300016: main_bed_headboard1
+    3300018: main_bed_headboard2
+    3300020: main_bed_headboard3
+    4300000: bed
+    4300002: main_bed_collider
+    4300004: main_bed_headboard
+    4300006: main_bed_headboard1
+    4300008: main_bed_headboard2
+    4300010: main_bed_headboard3
+    4300012: leg1
+    4300014: leg2
+    4300016: leg3
+    4300018: leg4
+    4300020: end
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -136,8 +113,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -157,11 +134,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

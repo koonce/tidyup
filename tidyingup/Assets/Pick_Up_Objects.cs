@@ -36,7 +36,7 @@ public class Pick_Up_Objects : MonoBehaviour {
                     Debug.Log("clicked hit");
                     dist = Vector3.Distance(this.transform.position, hit.transform.position);
                     Debug.DrawRay(transform.position, transform.forward, Color.green);
-                    if (hit.transform.tag == "throwable" && dist < maxDistance)
+                    if (hit.transform.tag == "throwable") //&& dist < maxDistance)
                         {
                             Debug.Log("okayokay");
                             hit.transform.gameObject.GetComponent<Interactable>().carry();

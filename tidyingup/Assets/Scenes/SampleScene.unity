@@ -909,61 +909,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!1 &675666258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 675666261}
-  - component: {fileID: 675666260}
-  - component: {fileID: 675666259}
-  m_Layer: 0
-  m_Name: ItemTrigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &675666259
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 675666258}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &675666260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 675666258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c56519291ed1ea42b89d6a6367ce1d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemMax: 25
-  itemsThrown: 0
---- !u!4 &675666261
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 675666258}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 2, z: 13.24}
-  m_LocalScale: {x: 14.6268, y: 0.55098, z: 8.929837}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &732499295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1155,55 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b6d4cfe1cbf95147b55ff895de5acdb, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &888064232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888064234}
+  - component: {fileID: 888064233}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &888064233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888064232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072703282bff3fe4ebf896284256b9ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 1468552621543476, guid: bd011a9b9fbcd0e4b822f8cb387d71c9, type: 2}
+  - {fileID: 1869014073747426, guid: cb3bced5e52875d41b359c62372ab640, type: 2}
+  - {fileID: 1183962889717586, guid: b54998517fccaac4e8cefd9ad2cedfab, type: 2}
+  - {fileID: 1887150043259548, guid: 1db4b1474a7ab0549adfaa7757d2d8e3, type: 2}
+  - {fileID: 1753073168199310, guid: 2fc79142bdc5c734da1b4b51871aed9b, type: 2}
+  spawnInterval: 5
+  bigCountdown: 10
+  itemCount: 0
+--- !u!4 &888064234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888064232}
+  m_LocalRotation: {x: 0.31614846, y: -0.24456333, z: 0.084711716, w: 0.9127228}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1020911869
 Prefab:
   m_ObjectHideFlags: 0
@@ -1298,6 +1292,7 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af008b9cc0c762544ac52a377de93820, type: 2}
   m_IsPrefabAsset: 0
+<<<<<<< HEAD
 --- !u!1 &1163578248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,6 +1344,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4773479383142270, guid: 7b6d4cfe1cbf95147b55ff895de5acdb,
     type: 2}
   m_PrefabInternal: {fileID: 809596188}
+=======
+>>>>>>> ee87abe08a48837f092fcdb4efdbaf78d200a975
 --- !u!1001 &1261442850
 Prefab:
   m_ObjectHideFlags: 0

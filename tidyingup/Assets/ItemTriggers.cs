@@ -37,8 +37,11 @@ public class ItemTriggers : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        spawnerScript.itemCount--;
-        itemsThrown++;
+        if (other.gameObject.transform.tag == "throwable")
+        {
+            Destroy(other.gameObject);
+            spawnerScript.itemCount--;
+            itemsThrown++;
+        }
     }
 }

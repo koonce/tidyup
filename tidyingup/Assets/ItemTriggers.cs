@@ -12,8 +12,8 @@ public class ItemTriggers : MonoBehaviour
     private GameObject manager;
     private GameManager gameManager;
 
-    public int itemMax = 100;
-    public int itemsThrown;
+    public int itemMax = 3;
+    public int itemsThrown = 0;
 
     // Use this for initialization
     void Start()
@@ -23,9 +23,6 @@ public class ItemTriggers : MonoBehaviour
 
         manager = GameObject.Find("GameManager");
         gameManager = manager.GetComponent<GameManager>();
-
-      //  itemMax = 5;
-        itemsThrown = 0;
     }
 
     // Update is called once per frame

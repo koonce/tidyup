@@ -27,7 +27,15 @@ public class GameManager : MonoBehaviour {
  
     }
 
+    void Update() {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
+
     public void LoadLevel(string name) {
         SceneManager.LoadScene(name);
     }
+
 }

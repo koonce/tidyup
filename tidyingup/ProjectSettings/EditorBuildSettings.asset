@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: cf96b0c0471f92545880d2e11be1b6ca
+  - enabled: 1
     path: Assets/Scenes/Alejandra.unity
     guid: 71a9d843912b8444d968f18ace71f515
   - enabled: 1

@@ -22,6 +22,9 @@ ModelImporter:
     2000000: Camera
     2100000: No Name
     2100002: Material
+    2100004: Oven_Buttons_Material
+    2100006: Oven_Material_Red
+    2100008: Oven_Material_Black
     2300000: doorCollider
     2300002: knob1
     2300004: knob2

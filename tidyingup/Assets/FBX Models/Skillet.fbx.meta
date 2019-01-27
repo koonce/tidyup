@@ -10,6 +10,8 @@ ModelImporter:
     400002: pCylinder2
     400004: //RootNode
     2100000: lambert1
+    2100002: Skillet_Material_Pan
+    2100004: Skillet_Material_Handle
     2300000: pCylinder1
     2300002: pCylinder2
     3300000: pCylinder1

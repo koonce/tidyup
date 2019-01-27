@@ -1,48 +1,26 @@
 fileFormatVersion: 2
-guid: 0f86086c847362845818821752d19acc
+guid: 5566b395a701c7d4780514f9277e244b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube1
-    100004: pCube2
-    100006: pCube4
-    100008: pCube5
-    100010: pCube6
-    100012: pCube7
-    100014: pCube8
-    400000: //RootNode
-    400002: pCube1
-    400004: pCube2
-    400006: pCube4
-    400008: pCube5
-    400010: pCube6
-    400012: pCube7
-    400014: pCube8
-    2100000: lambert1
-    2100002: Bookshelf_Brown
-    2300000: pCube1
-    2300002: pCube2
-    2300004: pCube4
-    2300006: pCube5
-    2300008: pCube6
-    2300010: pCube7
-    2300012: pCube8
-    3300000: pCube1
-    3300002: pCube2
-    3300004: pCube4
-    3300006: pCube5
-    3300008: pCube6
-    3300010: pCube7
-    3300012: pCube8
-    4300000: pCube1
-    4300002: pCube2
-    4300004: pCube4
-    4300006: pCube5
-    4300008: pCube6
-    4300010: pCube7
-    4300012: pCube8
+    100000: Camera
+    100002: Cube
+    100004: //RootNode
+    100006: Lamp
+    400000: Camera
+    400002: Cube
+    400004: //RootNode
+    400006: Lamp
+    2000000: Camera
+    2100000: Material
+    2100002: CuttingBoard_Material
+    2300000: Cube
+    2300002: //RootNode
+    3300000: Cube
+    3300002: //RootNode
+    4300000: Cube
     9500000: //RootNode
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1

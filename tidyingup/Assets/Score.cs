@@ -15,6 +15,6 @@ public class Score : MonoBehaviour {
         manager = GameObject.Find("GameManager");
         gameManager = manager.GetComponent<GameManager>();
 
-        GetComponent<Text>().text = gameManager.itemsThrownOut.ToString();
+        GetComponent<Text>().text = "Items Thrown Out: " + gameManager.itemsThrownOut.ToString();
 	}
 }

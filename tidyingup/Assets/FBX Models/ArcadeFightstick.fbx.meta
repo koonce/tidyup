@@ -14,6 +14,18 @@ ModelImporter:
     100016: Button8
     100018: FightStickCase
     100020: Joystick
+    100022: Button9
+    100024: pCube1
+    100026: transform1
+    100028: transform10
+    100030: transform2
+    100032: transform3
+    100034: transform4
+    100036: transform5
+    100038: transform6
+    100040: transform7
+    100042: transform8
+    100044: transform9
     400000: //RootNode
     400002: Button1
     400004: Button2
@@ -25,7 +37,25 @@ ModelImporter:
     400016: Button8
     400018: FightStickCase
     400020: Joystick
+    400022: Button9
+    400024: pCube1
+    400026: transform1
+    400028: transform10
+    400030: transform2
+    400032: transform3
+    400034: transform4
+    400036: transform5
+    400038: transform6
+    400040: transform7
+    400042: transform8
+    400044: transform9
     2100000: lambert1
+    2100002: FightStick_Dark
+    2100004: FIghtStick_ButtonYellow
+    2100006: FightStick_Med
+    2100008: FightStick_Joystick
+    2100010: FightStick_Button_Light
+    2100012: FightStick_Case
     2300000: Button1
     2300002: Button2
     2300004: Button3
@@ -36,6 +66,7 @@ ModelImporter:
     2300014: Button8
     2300016: FightStickCase
     2300018: Joystick
+    2300020: Button9
     3300000: Button1
     3300002: Button2
     3300004: Button3
@@ -46,6 +77,7 @@ ModelImporter:
     3300014: Button8
     3300016: FightStickCase
     3300018: Joystick
+    3300020: Button9
     4300000: Joystick
     4300002: FightStickCase
     4300004: Button1
@@ -56,6 +88,7 @@ ModelImporter:
     4300014: Button6
     4300016: Button7
     4300018: Button8
+    4300020: Button9
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -130,6 +163,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -17,6 +17,8 @@ ModelImporter:
     400010: transform2
     2100000: lambert2
     2100002: lambert1
+    2100004: Bed_Mattress_Material
+    2100006: BedFrame_Material
     2300000: pCube5
     2300002: //RootNode
     3300000: pCube5
@@ -94,6 +96,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

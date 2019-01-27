@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   guide: {fileID: 0}
-  throwForce: 50
+  throwForce: 200
   distance: 0
-  throwHeight: 1
+  throwHeight: 5
   held: 0

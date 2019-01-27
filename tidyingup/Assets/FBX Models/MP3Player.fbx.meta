@@ -12,6 +12,10 @@ ModelImporter:
     400004: MP3Screen
     400006: ScrollWheel
     2100000: lambert1
+    2100002: MP3Color
+    2100004: MP3Screen1
+    2100006: MainWheelMat
+    2100008: WheelMatty
     2300000: MP3Body
     2300002: MP3Screen
     2300004: ScrollWheel
@@ -94,6 +98,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -4,12 +4,33 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: end
+    100004: pCube5
+    100006: realBowl
+    100008: ting
     400000: //RootNode
+    400002: end
+    400004: pCube5
+    400006: realBowl
+    400008: ting
     2100000: Toilet_White
     2100002: Fridge_Grey
+    2100004: lambert1
     2300000: //RootNode
+    2300002: end
+    2300004: pCube5
+    2300006: realBowl
+    2300008: ting
     3300000: //RootNode
+    3300002: end
+    3300004: pCube5
+    3300006: realBowl
+    3300008: ting
     4300000: pCube4
+    4300002: pCube5
+    4300004: ting
+    4300006: realBowl
+    4300008: end
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -82,6 +103,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

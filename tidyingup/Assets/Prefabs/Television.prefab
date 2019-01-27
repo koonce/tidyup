@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 4918854062456128}
   - component: {fileID: 54803192918845082}
   m_Layer: 0
-  m_Name: Television 1
+  m_Name: Television
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

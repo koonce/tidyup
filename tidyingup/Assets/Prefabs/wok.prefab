@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64584730398053062}
   - component: {fileID: 54240633086866460}
   m_Layer: 0
-  m_Name: wok 1
+  m_Name: wok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

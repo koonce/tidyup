@@ -4,14 +4,71 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: guitarBody
+    100004: guitarBody1
+    100006: guitarBody2
+    100008: guitarBody3
+    100010: guitarBody4
+    100012: guitarBody5
+    100014: guitarBody6
+    100016: guitarStem1
+    100018: guitarStem2
+    100020: stem3
+    100022: stem4
     400000: //RootNode
+    400002: guitarBody
+    400004: guitarBody1
+    400006: guitarBody2
+    400008: guitarBody3
+    400010: guitarBody4
+    400012: guitarBody5
+    400014: guitarBody6
+    400016: guitarStem1
+    400018: guitarStem2
+    400020: stem3
+    400022: stem4
     2100000: blinn1
     2100002: lambert2
     2100004: lambert1
     2100006: blinn2
+    2100008: lambert3
     2300000: //RootNode
+    2300002: guitarBody
+    2300004: guitarBody1
+    2300006: guitarBody2
+    2300008: guitarBody3
+    2300010: guitarBody4
+    2300012: guitarBody5
+    2300014: guitarBody6
+    2300016: guitarStem1
+    2300018: guitarStem2
+    2300020: stem3
+    2300022: stem4
     3300000: //RootNode
+    3300002: guitarBody
+    3300004: guitarBody1
+    3300006: guitarBody2
+    3300008: guitarBody3
+    3300010: guitarBody4
+    3300012: guitarBody5
+    3300014: guitarBody6
+    3300016: guitarStem1
+    3300018: guitarStem2
+    3300020: stem3
+    3300022: stem4
     4300000: pCube1
+    4300002: guitar
+    4300004: guitarStem1
+    4300006: guitarStem2
+    4300008: stem3
+    4300010: stem4
+    4300012: guitarBody
+    4300014: guitarBody1
+    4300016: guitarBody2
+    4300018: guitarBody3
+    4300020: guitarBody4
+    4300022: guitarBody5
+    4300024: guitarBody6
     9500000: //RootNode
   externalObjects: {}
   materials:

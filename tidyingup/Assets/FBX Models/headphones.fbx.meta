@@ -7,20 +7,56 @@ ModelImporter:
     100002: //RootNode
     100004: leftEarcup
     100006: rightEarcup
+    100008: headbandCylinder
+    100010: headbandCylinder1
+    100012: headbandCylinder2
+    100014: headbandCylinder3
+    100016: headbandCylinder4
+    100018: headbandCylinder5
+    100020: headbandCylinder6
     400000: headband
     400002: //RootNode
     400004: leftEarcup
     400006: rightEarcup
+    400008: headbandCylinder
+    400010: headbandCylinder1
+    400012: headbandCylinder2
+    400014: headbandCylinder3
+    400016: headbandCylinder4
+    400018: headbandCylinder5
+    400020: headbandCylinder6
     2100000: lambert1
+    2100002: lambert2
     2300000: headband
     2300002: leftEarcup
     2300004: rightEarcup
+    2300006: headbandCylinder
+    2300008: headbandCylinder1
+    2300010: headbandCylinder2
+    2300012: headbandCylinder3
+    2300014: headbandCylinder4
+    2300016: headbandCylinder5
+    2300018: headbandCylinder6
     3300000: headband
     3300002: leftEarcup
     3300004: rightEarcup
+    3300006: headbandCylinder
+    3300008: headbandCylinder1
+    3300010: headbandCylinder2
+    3300012: headbandCylinder3
+    3300014: headbandCylinder4
+    3300016: headbandCylinder5
+    3300018: headbandCylinder6
     4300000: headband
     4300002: leftEarcup
     4300004: rightEarcup
+    4300006: headbandCylinder3
+    4300008: headbandCylinder
+    4300010: headbandCylinder1
+    4300012: headbandCylinder2
+    4300014: headbandCylinder4
+    4300016: headbandCylinder5
+    4300018: headbandCylinder6
   externalObjects: {}
   materials:
     importMaterials: 1

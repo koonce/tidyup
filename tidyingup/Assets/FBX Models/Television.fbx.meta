@@ -12,6 +12,9 @@ ModelImporter:
     400004: Television
     400006: TVStandCollider
     2100000: lambert1
+    2100002: TVPlastic
+    2100004: TVScreen
+    2100006: lambert2
     2300000: MonitorCollider
     2300002: Television
     2300004: TVStandCollider

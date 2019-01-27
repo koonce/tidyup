@@ -15,6 +15,9 @@ ModelImporter:
     400008: paddleItself
     2100000: lambert1
     2100002: lambert2
+    2100004: PaddleColor
+    2100006: paddleHandleCol
+    2100008: lambert3
     2300000: //RootNode
     2300002: handle1
     2300004: handle2

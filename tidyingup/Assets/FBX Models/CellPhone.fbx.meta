@@ -93,27 +93,7 @@ ModelImporter:
     4300028: CellPhoneAntenna
     4300030: phoneBody
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AntennaMat
-    second: {fileID: 2100000, guid: 1e65a8a5ea7c2a745afa4d5b76aa98e4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PhoneBodyMat
-    second: {fileID: 2100000, guid: dc83f984c3f7a27408a5a8d4e37c03de, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ScreenMat
-    second: {fileID: 2100000, guid: c4d4992f22c66754faa2bc6d6576db51, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: buttonMat
-    second: {fileID: 2100000, guid: 1c908a071321a8b4eafded56808540df, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

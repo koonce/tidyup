@@ -12,7 +12,7 @@ public class ItemTriggers : MonoBehaviour
     private GameObject manager;
     private GameManager gameManager;
 
-    public int itemMax;
+    public int itemMax = 100;
     public int itemsThrown;
 
     // Use this for initialization
@@ -24,7 +24,7 @@ public class ItemTriggers : MonoBehaviour
         manager = GameObject.Find("GameManager");
         gameManager = manager.GetComponent<GameManager>();
 
-        itemMax = 5;
+      //  itemMax = 5;
         itemsThrown = 0;
     }
 

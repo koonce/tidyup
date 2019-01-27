@@ -4,14 +4,51 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: fanPart1
+    100004: fanPart2
+    100006: fanPart3
+    100008: fanPart4
+    100010: fanPart5
+    100012: lamp1
+    100014: lamp2
     400000: //RootNode
+    400002: fanPart1
+    400004: fanPart2
+    400006: fanPart3
+    400008: fanPart4
+    400010: fanPart5
+    400012: lamp1
+    400014: lamp2
     2100000: Fridge_White
     2100002: lambert1
     2100004: Balenciaga_Brown
     2100006: lambert10
+    2100008: lambert2
     2300000: //RootNode
+    2300002: fanPart1
+    2300004: fanPart2
+    2300006: fanPart3
+    2300008: fanPart4
+    2300010: fanPart5
+    2300012: lamp1
+    2300014: lamp2
     3300000: //RootNode
+    3300002: fanPart1
+    3300004: fanPart2
+    3300006: fanPart3
+    3300008: fanPart4
+    3300010: fanPart5
+    3300012: lamp1
+    3300014: lamp2
     4300000: pCylinder1
+    4300002: fan
+    4300004: fanPart1
+    4300006: fanPart2
+    4300008: fanPart3
+    4300010: fanPart4
+    4300012: fanPart5
+    4300014: lamp1
+    4300016: lamp2
   externalObjects: {}
   materials:
     importMaterials: 1

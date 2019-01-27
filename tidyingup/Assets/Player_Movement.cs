@@ -14,7 +14,7 @@ public class Player_Movement : MonoBehaviour {
     public float rotationY;
     public float rotationX;
 
-    public bool holdingItem = false;
+    //public bool holdingItem = false;
 
     Rigidbody rb;
 
@@ -50,13 +50,23 @@ public class Player_Movement : MonoBehaviour {
         if (Input.GetKey(KeyCode.W))
         {
             //rb.AddRelativeForce(Vector3.forward * moveSpeed * Time.deltaTime);
-            rb.velocity = transform.forward * moveSpeed * Time.deltaTime;
+            transform.Translate(new Vector3(0f, 0f, Time.deltaTime * moveSpeed));
         }
         if (Input.GetKey(KeyCode.S))
         {
             //rb.AddRelativeForce(Vector3.forward * -moveSpeed * Time.deltaTime);
-            rb.velocity = transform.forward * -moveSpeed * Time.deltaTime;
-        } 
+            transform.Translate(new Vector3(0f, 0f, Time.deltaTime * -moveSpeed));
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            //rb.AddRelativeForce(Vector3.forward * -moveSpeed * Time.deltaTime);
+            transform.Translate(new Vector3(Time.deltaTime * -moveSpeed, 0f, 0f));
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            //rb.AddRelativeForce(Vector3.forward * -moveSpeed * Time.deltaTime);
+            transform.Translate(new Vector3(Time.deltaTime * moveSpeed, 0f, 0f));
+        }
 
         //mouse look for player
 

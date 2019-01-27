@@ -4,65 +4,61 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: headband
-    100002: //RootNode
-    100004: leftEarcup
-    100006: rightEarcup
-    100008: headbandCylinder
-    100010: headbandCylinder1
-    100012: headbandCylinder2
-    100014: headbandCylinder3
-    100016: headbandCylinder4
-    100018: headbandCylinder5
-    100020: headbandCylinder6
+    100002: headbandCylinder
+    100004: headbandCylinder1
+    100006: headbandCylinder2
+    100008: headbandCylinder3
+    100010: headbandCylinder4
+    100012: headbandCylinder5
+    100014: headbandCylinder6
+    100016: //RootNode
+    100018: leftEarcup
+    100020: rightEarcup
     400000: headband
-    400002: //RootNode
-    400004: leftEarcup
-    400006: rightEarcup
-    400008: headbandCylinder
-    400010: headbandCylinder1
-    400012: headbandCylinder2
-    400014: headbandCylinder3
-    400016: headbandCylinder4
-    400018: headbandCylinder5
-    400020: headbandCylinder6
-    2100000: lambert1
-    2100002: lambert2
+    400002: headbandCylinder
+    400004: headbandCylinder1
+    400006: headbandCylinder2
+    400008: headbandCylinder3
+    400010: headbandCylinder4
+    400012: headbandCylinder5
+    400014: headbandCylinder6
+    400016: //RootNode
+    400018: leftEarcup
+    400020: rightEarcup
+    2100000: lambert2
+    2100002: lambert1
+    2100004: lambert3
     2300000: headband
-    2300002: leftEarcup
-    2300004: rightEarcup
-    2300006: headbandCylinder
-    2300008: headbandCylinder1
-    2300010: headbandCylinder2
-    2300012: headbandCylinder3
-    2300014: headbandCylinder4
-    2300016: headbandCylinder5
-    2300018: headbandCylinder6
+    2300002: headbandCylinder
+    2300004: headbandCylinder1
+    2300006: headbandCylinder2
+    2300008: headbandCylinder3
+    2300010: headbandCylinder4
+    2300012: headbandCylinder5
+    2300014: headbandCylinder6
+    2300016: leftEarcup
+    2300018: rightEarcup
     3300000: headband
-    3300002: leftEarcup
-    3300004: rightEarcup
-    3300006: headbandCylinder
-    3300008: headbandCylinder1
-    3300010: headbandCylinder2
-    3300012: headbandCylinder3
-    3300014: headbandCylinder4
-    3300016: headbandCylinder5
-    3300018: headbandCylinder6
+    3300002: headbandCylinder
+    3300004: headbandCylinder1
+    3300006: headbandCylinder2
+    3300008: headbandCylinder3
+    3300010: headbandCylinder4
+    3300012: headbandCylinder5
+    3300014: headbandCylinder6
+    3300016: leftEarcup
+    3300018: rightEarcup
     4300000: headband
-    4300002: leftEarcup
-    4300004: rightEarcup
-    4300006: headbandCylinder3
-    4300008: headbandCylinder
-    4300010: headbandCylinder1
-    4300012: headbandCylinder2
-    4300014: headbandCylinder4
-    4300016: headbandCylinder5
-    4300018: headbandCylinder6
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert2
-    second: {fileID: 2100000, guid: b6bb6860bd1f4a746ba3bf87401e94d1, type: 2}
+    4300002: headbandCylinder3
+    4300004: headbandCylinder
+    4300006: headbandCylinder1
+    4300008: headbandCylinder2
+    4300010: headbandCylinder4
+    4300012: headbandCylinder5
+    4300014: headbandCylinder6
+    4300016: leftEarcup
+    4300018: rightEarcup
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -134,6 +130,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

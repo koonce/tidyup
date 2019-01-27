@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ItemTriggers : MonoBehaviour {
+public class ItemTriggers : MonoBehaviour
+{
 
     private GameObject spawner;
     private Spawner spawnerScript;
@@ -12,7 +13,7 @@ public class ItemTriggers : MonoBehaviour {
     private GameManager gameManager;
 
     public int itemMax;
-    private int itemsThrown;
+    public int itemsThrown;
 
     // Use this for initialization
     void Start()
@@ -37,4 +38,10 @@ public class ItemTriggers : MonoBehaviour {
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
+        spawnerScript.itemCount--;
+        itemsThrown++;
+    }
 }

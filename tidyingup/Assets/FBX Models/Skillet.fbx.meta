@@ -10,6 +10,8 @@ ModelImporter:
     400002: pCylinder2
     400004: //RootNode
     2100000: lambert1
+    2100002: Skillet_Material_Pan
+    2100004: Skillet_Material_Handle
     2300000: pCylinder1
     2300002: pCylinder2
     3300000: pCylinder1
@@ -88,6 +90,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

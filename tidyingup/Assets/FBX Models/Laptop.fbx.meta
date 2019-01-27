@@ -10,17 +10,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCube6
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fridge_Grey
-    second: {fileID: 2100002, guid: 41ab259eba578134bad8359761179cad, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Toilet_White
-    second: {fileID: 2100000, guid: fd430bd7f6f086b489aef3352f1764b0, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -92,6 +82,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

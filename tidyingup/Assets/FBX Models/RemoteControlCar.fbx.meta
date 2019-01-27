@@ -36,6 +36,9 @@ ModelImporter:
     400028: SpoilerLeg1
     400030: SpoilerLeg2
     2100000: lambert1
+    2100002: lambert4
+    2100004: lambert2
+    2100006: lambert3
     2300000: BackLeftWheel
     2300002: BackRightWheel
     2300004: BackWheelAxle
@@ -51,6 +54,7 @@ ModelImporter:
     2300024: RightFrontWheel
     2300026: SpoilerLeg1
     2300028: SpoilerLeg2
+    2300030: //RootNode
     3300000: BackLeftWheel
     3300002: BackRightWheel
     3300004: BackWheelAxle
@@ -66,6 +70,7 @@ ModelImporter:
     3300024: RightFrontWheel
     3300026: SpoilerLeg1
     3300028: SpoilerLeg2
+    3300030: //RootNode
     4300000: carBody
     4300002: SpoilerLeg2
     4300004: SpoilerLeg1
@@ -81,6 +86,7 @@ ModelImporter:
     4300024: BackWheelAxle
     4300026: pCylinder3
     4300028: pSphere1
+    4300030: carBody1
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -154,6 +160,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

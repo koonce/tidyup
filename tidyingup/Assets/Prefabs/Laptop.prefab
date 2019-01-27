@@ -26,9 +26,10 @@ GameObject:
   - component: {fileID: 65037284429299652}
   - component: {fileID: 65457173498412596}
   - component: {fileID: 54792645402910520}
+  - component: {fileID: 114553201798826808}
   m_Layer: 0
   m_Name: Laptop
-  m_TagString: Untagged
+  m_TagString: throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,3 +153,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.010158886, z: 0.009940556}
   m_Center: {x: 0, y: -0.000079440375, z: -0.000029727054}
+--- !u!114 &114553201798826808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732579668687120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1fcbb3d126c5d4a90d3d9f38ed90ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  guide: {fileID: 0}
+  throwForce: 50
+  distance: 0
+  throwHeight: 1
+  held: 0

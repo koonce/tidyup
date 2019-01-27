@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23192868342826036}
   - component: {fileID: 64675429238544110}
   - component: {fileID: 54644706510310848}
+  - component: {fileID: 114033147982921638}
   m_Layer: 0
   m_Name: plate
-  m_TagString: Untagged
+  m_TagString: throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,3 +115,20 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 87bab30119fd0ae4e98d32dd91a0ff64, type: 3}
+--- !u!114 &114033147982921638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922347903011230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1fcbb3d126c5d4a90d3d9f38ed90ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  guide: {fileID: 0}
+  throwForce: 50
+  distance: 0
+  throwHeight: 1
+  held: 0

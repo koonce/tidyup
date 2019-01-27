@@ -16,11 +16,11 @@ public class Spawner : MonoBehaviour {
     private float currentBigTime = 0;
 
     //Spawn Ranges
-    private readonly float xMin = -540.0f;
-    private readonly float xMax = 540.0f;
+    private readonly float xMin = -7.0f;
+    private readonly float xMax = 7.0f;
 
-    private readonly float zMin = -540.0f;
-    private readonly float zMax = 540.0f;
+    private readonly float zMin = -7.0f;
+    private readonly float zMax = 7.0f;
 
     //Spawn locations
     private readonly float itemY = 5;

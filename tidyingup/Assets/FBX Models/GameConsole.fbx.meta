@@ -14,6 +14,10 @@ ModelImporter:
     400006: PowerButton
     400008: ResetButton
     2100000: lambert1
+    2100002: Shell
+    2100004: blinn1
+    2100006: blinn2
+    2100008: PowerMat
     2300000: ConsoleShell
     2300002: diskSlot
     2300004: PowerButton
@@ -99,6 +103,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

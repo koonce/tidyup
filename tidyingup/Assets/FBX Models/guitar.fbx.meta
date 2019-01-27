@@ -32,6 +32,11 @@ ModelImporter:
     2100004: lambert1
     2100006: blinn2
     2100008: lambert3
+    2100010: Hole
+    2100012: Shadow
+    2100014: GuitarColor
+    2100016: GuitarPeggy
+    2100018: lambert4
     2300000: //RootNode
     2300002: guitarBody
     2300004: guitarBody1
@@ -142,6 +147,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -26,6 +26,7 @@ ModelImporter:
     2100002: Material.001
     2100004: No Name
     2100006: Chest_Material
+    2100008: Material.002
     2300000: chest
     2300002: chestCollider
     2300004: chestCollider2
@@ -125,6 +126,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
